@@ -775,8 +775,8 @@ Change widths as necessary
 
 .typewriter h2 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
+  border-right: .08em solid orange; /* The typwriter cursor */
+  white-space: normal; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
