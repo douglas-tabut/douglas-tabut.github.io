@@ -773,7 +773,7 @@ Change widths as necessary
   h2, h3{page-break-after: avoid}
 }
 
-.typewriter h3 {
+.typewriter h4 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .08em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
