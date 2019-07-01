@@ -1,16 +1,15 @@
-form {
+/*form {
   margin: 2em;
   margin-left: 10em;
   width: 100%;
-}
+}*/
+
 aside {
-    background: #2E8B57; /* same color as selected state on site menu */
+    background: #2E8B57; 
     padding: 0.3em 1em;
     border-radius: 3px;
     color: #fff;
     margin-bottom: 2em;
-      margin-left: 10em;
-
 
 }
 textarea {
