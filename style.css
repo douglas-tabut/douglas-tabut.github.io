@@ -1,6 +1,7 @@
 form {
   margin: 2em;
   margin-left: 10em;
+  width: 100%;
 }
 aside {
     background: #2E8B57; /* same color as selected state on site menu */
@@ -17,7 +18,7 @@ textarea {
 }
 .content-head {
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: uppercase;ss
   letter-spacing: 0.1em;
   margin: 2em 0 1em;
 }
