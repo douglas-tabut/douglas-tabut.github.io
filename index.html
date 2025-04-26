@@ -38,9 +38,9 @@
   <script src="js/vendor/jquery.hashchange.min.js"></script>
   <script src="js/vendor/jquery.easytabs.min.js"></script>
   <script src="js/main.js"></script>
- 
+
 </head>
- 
+
 <!-- Start of Body Tag -->
 <body class="bg-fixed bg-1">
   <div class="main-container">
@@ -69,14 +69,14 @@
 
     <!-- Main Tab Container -->
       <div id="tab-container" class="tab-container">
-  
+
         <!-- Tab List -->
         <ul class='etabs'>
 
           <li class='tab' id="tab-about">
             <a href="#about">
               <i class="icon-user"></i>
-                <span> 
+                <span>
                         About Me
                 </span>
             </a>
@@ -90,7 +90,7 @@
                 </span>
             </a>
           </li>
-      
+
           <li class='tab'>
             <a href="#portfolio">
               <i class="icon-heart"></i>
@@ -103,7 +103,7 @@
           <li class='tab'>
             <a href="#contact">
               <i class="icon-envelope"></i>
-                <span> 
+                <span>
                       Contact
                 </span>
             </a>
@@ -115,7 +115,7 @@
 <!-- ----------------------------------------------------------------------------------- -->
     <!-- Code for differents Tabs strat from here. -->
     <div id="tab-data-wrap">
-  
+
       <!-- About Tab Data -->
       <div id="about">
         <section class="clearfix">
@@ -125,7 +125,7 @@
             </div>
             <div class="info">
               <h2>
-                        Douglas Tabut 
+                        Douglas Tabut
               </h2>
            <div class="typewriter">
               <h4>
@@ -135,11 +135,11 @@
               <p>
                         Provider of Custom Software Services.
 
-              </p>                               
+              </p>
               </p>
             </div>
           </div>
-     
+
           <div class="g1">
             <div class="main-links sidebar">
               <ul>
@@ -173,7 +173,7 @@
                           Hit my MailBox
                       </a>
                     </h3>
-                    <p> 
+                    <p>
                          Email Address
                     </p>
                   </div>
@@ -220,7 +220,7 @@
           <div class="g2">
             <h3>
                  Programming
-            </h3>                             
+            </h3>
             <div class="meter emerald">
               <span style="width: 90%">
                 <span>
@@ -298,14 +298,14 @@
               </span>
                <h3>
                   Hobbies
-            </h3> 
+            </h3>
            <span class="label label-info" style="width: 90%">I love Football, Travelling and Dancing</span>
             </div>
-              
+
           </div>
-          
+
 <!--           <div class="g2"> -->
-         
+
 
 <!--              <span class="label label-info">Travelling</span> -->
 
@@ -317,12 +317,12 @@
     <!-- Projects Tab Data -->
       <div id="portfolio">
         <section class="clearfix">
-          
+
           <h1>
             <center>  Projects </center>
           </h1>
           <p>
-            <center> 
+            <center>
               <ul>
                  <li><i>Development, Server Configuration (Digital Ocean) and Management for Abinfocom and Silversplash Co. India (2019).</i></li><br>
                  <li><i>Odoo ERP Customization for Geonet Technologies Kenya (2018).</i></li><br>
@@ -334,14 +334,14 @@
               </center>
             <center> </center>
           </p>
-          
+
         </section>
       </div>
     <!-- End Projects tab -->
 <!-- ----------------------------------------------------------------------------------- -->
     <!-- Contact Tab Data -->
       <div id="contact">
-        <section class="clearfix">        
+        <section class="clearfix">
   <aside>
        <p>
            Would <em>love</em> to hear from you! </p>
@@ -356,49 +356,40 @@
    <!-- Style The Contact Form How Ever You Prefer -->
    <link rel="stylesheet" href="style.css">
 
-  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
-  action="https://script.google.com/macros/s/AKfycbwujk7rGB871LvdAhEgcsKJUI3T6rKiaSuOlK1GGQ/exec">
-    <!-- change the form action to your script url -->
+<form class="pure-form pure-form-stacked" method="POST" action="https://formspree.io/f/mkgrgvbv">
+  <!-- Replace 'your-form-id' with your real Formspree form ID -->
 
-    <div class="form-elements">
-      <fieldset class="pure-group">
-        <label for="name">Name: </label>
-        <input id="name" name="name" placeholder="Name" />
-      </fieldset>
+  <div class="form-elements">
+    <fieldset class="pure-group">
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="Name" required />
+    </fieldset>
 
-      <fieldset class="pure-group">
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="10"
-        placeholder="Your Project Description..."></textarea>
-      </fieldset>
+    <fieldset class="pure-group">
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="10" placeholder="Your Project Description..." required></textarea>
+    </fieldset>
 
-      <fieldset class="pure-group">
-        <label for="email"><em>Your</em> Email Address:</label>
-        <input id="email" name="email" type="email" value=""
-        required placeholder="your.name@email.com"/>
-      </fieldset>
+    <fieldset class="pure-group">
+      <label for="email">Your Email Address:</label>
+      <input id="email" name="email" type="email" placeholder="your.name@email.com" required />
+    </fieldset>
 
-      <fieldset class="pure-group">
-        <label for="location">Your Location: </label>
-        <input id="location" name="location" placeholder="Mombasa, Kenya." />
-      </fieldset>
+    <fieldset class="pure-group">
+      <label for="location">Your Location: </label>
+      <input id="location" name="location" placeholder="Mombasa, Kenya." />
+    </fieldset>
 
-      <fieldset class="pure-group honeypot-field">
-        <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
-        <input id="honeypot" type="text" name="honeypot" value="" />
-      </fieldset>
+    <button class="button-success pure-button button-xlarge" type="submit">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send
+    </button>
+  </div>
 
-      <button class="button-success pure-button button-xlarge">
-        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-    </div>
-
-    <!-- Customise the Thankyou Message People See when they submit the form: -->
-    <div class="thankyou_message" style="display:none;">
-      <h2><em>Thanks</em> for contacting Me!
-        I will definitely get back to you soon!</h2>
-    </div>
-
-  </form>
+  <!-- Thank you message -->
+  <div class="thankyou_message" style="display:none;">
+    <h2><em>Thanks</em> for contacting Me! I will definitely get back to you soon!</h2>
+  </div>
+</form>
 
   <!-- Submit the Form to Google Using "AJAX" -->
   <script data-cfasync="false" src="form-submission-handler.js"></script>
@@ -426,5 +417,32 @@
   </div>
 </div>
 </body>
+
+<script>
+  const form = document.querySelector("form");
+  const thankYou = document.querySelector(".thankyou_message");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = form.action;
+
+    const response = await fetch(action, {
+      method: "POST",
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      form.style.display = 'none';
+      thankYou.style.display = 'block';
+    } else {
+      alert('Something went wrong! Please try again.');
+    }
+  });
+</script>
+
 </html>
 
